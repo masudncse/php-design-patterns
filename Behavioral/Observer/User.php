@@ -1,12 +1,12 @@
 <?php
 
-declare(strict_types=1);
+
 
 namespace DesignPatterns\Behavioral\Observer;
 
-use SplSubject;
 use SplObjectStorage;
 use SplObserver;
+use SplSubject;
 
 /**
  * User implements the observed object (called Subject), it maintains a list of observers and sends notifications to
