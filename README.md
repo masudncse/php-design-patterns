@@ -1,4 +1,4 @@
-# DesignPatternsPHP
+# Design Patterns In PHP
 
 [![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
@@ -19,31 +19,6 @@ $ composer install
 ```
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
-
-To run the tests use `phpunit`:
-
-```bash
-$ ./vendor/bin/phpunit
-```
-
-## Using Docker (optional)
-
-You can optionally build and browse the documentation using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
-
-Just run:
-
-```bash
-$ docker-compose up --build
-```
-
-Go to [http://localhost:8080/](http://localhost:8080/) to read the generated documentation.
-
-If you want to localize your documentation you can pass the locale as an argument to the docker build:
-
-```bash
-$ docker-compose build --build-arg language=de
-$ docker-compose up
-```
 
 ## Patterns
 
